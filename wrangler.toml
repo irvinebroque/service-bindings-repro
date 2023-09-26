@@ -1,0 +1,7 @@
+name = "src"
+main = "src/worker.ts"
+compatibility_date = "2023-09-26"
+
+services = [
+  { binding = "FOO", service = "hello-world-service-binding-target" }
+]
